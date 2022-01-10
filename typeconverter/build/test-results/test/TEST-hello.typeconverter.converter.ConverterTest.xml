@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.typeconverter.converter.ConverterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-01-03T11:34:39" hostname="iwonseog-ui-MacBookAir.local" time="0.178">
+  <properties/>
+  <testcase name="IntegerToString()" classname="hello.typeconverter.converter.ConverterTest" time="0.134"/>
+  <testcase name="stringToInteger()" classname="hello.typeconverter.converter.ConverterTest" time="0.006"/>
+  <testcase name="StringToIpPort()" classname="hello.typeconverter.converter.ConverterTest" time="0.004"/>
+  <testcase name="IpPortToString()" classname="hello.typeconverter.converter.ConverterTest" time="0.022"/>
+  <system-out><![CDATA[20:34:39.365 [Test worker] INFO hello.typeconverter.converter.IntegerToStringConverter - convert source = 10
+20:34:39.439 [Test worker] INFO hello.typeconverter.converter.StringToIntegerConverter - convert source=10
+20:34:39.444 [Test worker] INFO hello.typeconverter.converter.StringToIpPortConverter - convert source=127.0.0.1:8080
+20:34:39.453 [Test worker] INFO hello.typeconverter.converter.IpPortToStringConverter - convert source=hello.typeconverter.type.IpPort@59cb0946
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
